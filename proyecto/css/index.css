@@ -1,0 +1,414 @@
+* {
+
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fafafa;
+
+}
+
+header {
+	width: 100%;
+	overflow: hidden;
+	background: #161616;
+	margin-bottom: 20px;
+	background: #161616
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+
+header .logo {
+	color: #fafafa;
+	font-size: 35px;
+	line-height: 65px;
+	float: left;
+}
+
+header nav {
+	float: right;
+	line-height: 65px;
+
+}
+
+header nav a {
+	display: inline-block;
+	color: #fafafa;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: 20px;
+	font-size: 20px;
+}
+
+header nav a:hover {
+	background: #ffb25b;
+	border-radius: 50px;
+	transition: 0.6s ease-in-out;
+}
+
+.header2 {
+	position: fixed;
+	height: 65px;
+
+}
+
+.header2 .logo {
+	line-height: 65px;
+	font-size: 35px;
+
+}
+
+.header2 nav {
+	line-height: 55px;
+}
+
+
+/* Showcase */
+
+
+.showcase {
+	color: #fafafa;
+	width: 100%;
+	height: 550px;
+	background: linear-gradient(to bottom,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.9)),
+		url(/img/wallpapers/inlaptop.jpg) no-repeat center;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	border-radius: 25px;
+}
+
+.zoom2 a, .zoom2 h2, .zoom2 p {
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+}
+
+.transition2 {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	transition: 0.6s ease-out;
+}
+
+
+.showcase h2 {
+	width: 90%;
+	justify-content: space-between;
+	text-align: flex-start;
+	padding-bottom: 30px;
+	font-size: 32px;
+	color: #ffb25b;
+}
+
+.showcase p {
+	width: 90%;
+	justify-content: space-between;
+	text-align: flex-start;
+	padding-bottom: 30px;
+	font-size: 22px;
+}
+
+.showcase a {
+	display: inline-block;
+	color: #ffb25b;
+	padding: 10px 20px;
+	line-height: 20px;
+	font-size: 20px;
+	border-radius: 50px;
+	text-decoration: none;
+	background: #fafafa;
+	font-size: 24px;
+}
+
+.showcase a:hover {
+	color: #fafafa;
+	background: #ffb25b;
+	transition: 0.6s;
+}
+
+
+/* ------------------------- */
+/* Grid */
+/* ------------------------- */
+
+.contenedor {
+	margin: auto;
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	text-align: center;
+
+}
+
+
+.contenedor h3 {
+	font-size: 33px;
+	color: #ffb25b;
+	margin-bottom: 10px;
+
+}
+
+.contenedor p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #ffb25b;
+
+}
+
+.after::after {
+	content: '';
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	width: 100px;
+	height: 2px;
+	background: #ffb25b;
+	margin-bottom: 45px;
+
+}
+
+.card {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-radius: 50px;
+	
+}
+
+.content-card {
+	width: 31%;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	overflow: hidden;
+	height: 400px;
+	border-radius: 50px;
+	background: #16161600;
+}
+
+.people {
+	height: 333px;
+	margin:auto;
+}
+
+.zoom img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50px 50px 0 0;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	-o-transform: scale(0.95);
+	transform: scale(0.95);
+	transition: 0.6s;
+	
+}
+
+
+
+.texto-team {
+	height: 20%;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.texto-team a {
+	display: inline-block;
+	color: #ffb25b;
+	padding: 10px 20px;
+	line-height: 20px;
+	font-size: 20px;
+	border-radius: 50px;
+	text-decoration: none;
+	background: #fafafa;
+	font-size: 22px;
+}
+
+.texto-team a:hover {
+	color: #fafafa;
+	background: #ffb25b;
+	transition: 0.6s;
+}
+
+.about {
+	background: linear-gradient(to bottom,
+			rgba(22, 22, 22, 0.993),
+			rgba(22, 22, 22, 0.712),
+			rgba(23, 23, 23, 0.616),
+			rgba(22, 22, 22, 0.712),
+			rgba(22, 22, 22, 0.993)),
+		url(/img/wallpapers/teclado2.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+
+}
+
+.servicios {
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.caja-servicios>h4 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.caja-servicios>p {
+	text-align: center;
+}
+
+.botones-work {
+	overflow: hidden;
+
+}
+
+.botones-work li {
+	display: inline-block;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 45px;
+	padding: 6px 12px;
+	border: 1px solid #ffb25b;
+	text-decoration: none;
+	list-style: none;
+	color: #ffb25b;
+
+
+}
+
+.botones-work li:hover {
+	background: #ffb25b;
+	color: #fafafa;
+	cursor: pointer;
+	transition: 1s;
+
+}
+
+.botones-work .active {
+	background: #ffb25b;
+	color: #fafafa;
+
+}
+
+.galeria-work {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.galeria-work .contwork {
+	width: 31%;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .0);
+	height: 300px;
+	overflow: hidden;
+	margin-bottom: 45px;
+
+}
+
+.img-work {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.img-work img {
+	-webkit-transition: all .9s ease;
+	/* Safari y Chrome */
+	-moz-transition: all .9s ease;
+	/* Firefox */
+	-o-transition: all .9s ease;
+	/* IE 9 */
+	-ms-transition: all .9s ease;
+	/* Opera */
+	width: 100%;
+	height: 90%;
+
+}
+
+.img-work:hover img {
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	transform: scale(1.25);
+	background: #16161680;
+}
+
+.img-work img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.textos-work {
+	height: 10%;
+}
+
+.textos-work h4 {
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 950px) {
+
+	.wrapper {
+		width: 90%;
+	}
+
+	header .logo,
+	header nav {
+		width: 100%;
+		text-align: center;
+		line-height: 60px;
+	}
+
+	.header2 {
+		height: auto;
+	}
+
+	.header2 .logo,
+	.header2 nav {
+		line-height: 55px;
+	}
+
+	.content-card {
+		height: 300px;
+		
+	}
+
+
+}
